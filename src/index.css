@@ -1,0 +1,31 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: #e1e5ff ;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .css-1oqqzyl-MuiContainer-root {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 600px) {
+  .MuiStepper-root {
+    padding: 0;
+  }
+
+  .MuiStepLabel-label {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 600px) {
+.css-1oqqzyl-MuiContainer-root {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
